@@ -203,8 +203,8 @@
     letter-spacing: 0px;
     text-align: center;
     height: 84px;
-    width: 620px;
-    margin-left: 120px;
+    width: 618px;
+    margin-left: 160px;
 }
 
 .card-sec {
@@ -252,5 +252,90 @@
     line-height: 28px;
     letter-spacing: 0px;
     text-align: left;
+
+}
+
+.galary {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 120px;
+
+    margin-top: 150px;
+
+}
+
+.galary img {
+    height: 391px;
+    width: 364px;
+    border-radius: 10px;
+
+}
+
+.galary .galary-img {
+    margin: 20px;
+
+}
+
+.card-bottom-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 120px;
+    margin-bottom: 150px;
+
+
+}
+
+.card-bottom {
+    height: 481px;
+    width: 384px;
+    left: 150px;
+    top: 3607px;
+    border: 2px solid rgb(230, 227, 227);
+    border-radius: 5px;
+    margin: 20px;
+
+}
+
+.card-bottom-img {
+    height: 211px;
+    width: 384px;
+
+
+}
+
+.card-desciption {
+    padding: 25px;
+}
+
+.card-desciption h4 {
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+
+}
+
+.card-desciption p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: left;
+
+}
+
+.card-desciption a {
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #EF233C;
 
 }
