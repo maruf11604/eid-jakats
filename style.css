@@ -1,0 +1,256 @@
+.main {
+    min-height: 100%;
+    height: auto;
+}
+
+.bannar {
+    height: 800px;
+    min-width: 100%;
+    background-image: url(images/goru.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    transform: scaleX(-1);
+}
+
+.banner-img {
+    height: 800px;
+    min-width: 100%;
+    background: linear-gradient(to right, #222121, rgba(26, 26, 26, 0));
+    position: absolute;
+    transform: scaleX(-1);
+    top: 0;
+    left: 0;
+}
+
+.banner-text {
+    margin-top: 200px;
+    margin-left: 300px;
+}
+
+.banner-text h1 {
+    font-family: Inter;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+
+
+}
+
+.banner-text p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    color: #FFF;
+    height: 84px;
+    width: 480px;
+
+}
+
+.link-button {
+    /* height: 116px;
+    width: 56px; */
+    color: #FFF;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 0px;
+    text-align: left;
+    background-color: #EF233C;
+    padding: 18px 20px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 60px;
+}
+
+
+.donate {
+    display: flex;
+    margin-top: 150px;
+    align-items: center;
+    justify-content: center;
+}
+
+.half-div {
+    width: 50%;
+}
+
+.half-div h2 {
+    font-family: 'Inter', sans-serif;
+    font-size: 46px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-left: 290px;
+
+}
+
+.half-div p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: left;
+    height: 84px;
+    width: 482px;
+    margin-left: 290px;
+}
+
+.half-div a {
+    margin-left: 290px;
+
+}
+
+.donate-img {
+    height: 550px;
+    width: 556px;
+    margin-left: 120px;
+    position: relative;
+}
+
+.back-img {
+    height: 550px;
+    width: 556px;
+}
+
+.half-div .inner-img {
+    height: 112px;
+    width: 112px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+
+.need {
+    display: flex;
+    margin-top: 150px;
+    align-items: center;
+    justify-content: center;
+}
+
+.half-sec {
+    width: 50%;
+}
+
+.half-sec img {
+    margin-left: 290px;
+    height: 550px;
+    width: 556px;
+}
+
+.half-sec h2 {
+    font-family: 'Inter', sans-serif;
+    font-size: 46px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-left: 120px;
+
+}
+
+.half-sec p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: left;
+    height: 84px;
+    width: 482px;
+    margin-left: 120px;
+}
+
+.half-sec .link-button {
+    margin-left: 120px;
+}
+
+.help {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+
+}
+
+.help-taxt h2 {
+    font-family: 'Inter', sans-serif;
+    font-size: 46px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: center;
+    margin-left: 120px;
+}
+
+.help-taxt p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: center;
+    height: 84px;
+    width: 620px;
+    margin-left: 120px;
+}
+
+.card-sec {
+    margin-left: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    height: 225px;
+    width: 480px;
+    background-color: #FEF4F5;
+    margin: 20px;
+
+}
+
+.card-img {
+    width: 20%;
+    margin-top: 30px;
+}
+
+.card-taxt {
+    width: 70%;
+}
+
+.card-taxt h4 {
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+
+
+}
+
+.card-taxt p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: left;
+
+}
